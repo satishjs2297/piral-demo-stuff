@@ -6,15 +6,8 @@
     "piral"
   ],
   "dependencies": {
-    "@angular/common": "^11.2.10",
-    "@angular/compiler": "^11.2.10",
-    "@angular/core": "^11.2.10",
-    "@angular/platform-browser": "^11.2.10",
-    "@angular/platform-browser-dynamic": "^11.2.10",
     "piral": "^0.13.1",
-    "piral-ng": "^0.13.1",
-    "rxjs": "^6.6.7",
-    "zone.js": "^0.11.4"
+    "piral-ng": "^0.13.1"
   },
   "scripts": {
     "start": "piral debug",
@@ -30,7 +23,8 @@
       "@angular/platform-browser",
       "@angular/platform-browser-dynamic",
       "rxjs",
-      "zone.js"
+      "zone.js",
+      "core-js"
     ],
     "scripts": {},
     "validators": {},
@@ -49,6 +43,14 @@
     "@types/react-router-dom": "latest",
     "piral-cli": "0.13.1",
     "piral-cli-webpack": "^0.13.1",
-    "typescript": "latest"
+    "typescript": "latest",
+    "@angular/common": "^8.0.0",
+    "@angular/compiler": "^8.0.0",
+    "@angular/core": "^8.0.0",
+    "@angular/platform-browser": "^8.0.0",
+    "@angular/platform-browser-dynamic": "^8.0.0",
+    "zone.js": "^0.9.1",
+    "core-js": "^2.5.7",
+    "rxjs": "^6.3.3"
   }
 }
