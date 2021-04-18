@@ -1,0 +1,54 @@
+{
+  "name": "app-shell-demo",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "piral"
+  ],
+  "dependencies": {
+    "@angular/common": "^11.2.10",
+    "@angular/compiler": "^11.2.10",
+    "@angular/core": "^11.2.10",
+    "@angular/platform-browser": "^11.2.10",
+    "@angular/platform-browser-dynamic": "^11.2.10",
+    "piral": "^0.13.1",
+    "piral-ng": "^0.13.1",
+    "rxjs": "^6.6.7",
+    "zone.js": "^0.11.4"
+  },
+  "scripts": {
+    "start": "piral debug",
+    "build": "piral build"
+  },
+  "app": "./src/index.html",
+  "pilets": {
+    "files": [],
+    "externals": [
+      "@angular/common",
+      "@angular/compiler",
+      "@angular/core",
+      "@angular/platform-browser",
+      "@angular/platform-browser-dynamic",
+      "rxjs",
+      "zone.js"
+    ],
+    "scripts": {},
+    "validators": {},
+    "devDependencies": {},
+    "preScaffold": "",
+    "postScaffold": "",
+    "preUpgrade": "",
+    "postUpgrade": "",
+    "packageOverrides": {}
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router": "latest",
+    "@types/react-router-dom": "latest",
+    "piral-cli": "0.13.1",
+    "piral-cli-webpack": "^0.13.1",
+    "typescript": "latest"
+  }
+}
